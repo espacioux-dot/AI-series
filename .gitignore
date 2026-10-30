@@ -1,0 +1,14 @@
+# Claves: nunca al repo
+.env.local
+.env.*.local
+
+# Registros de las sesiones de trabajo: tienen copiadas las claves que
+# imprime `supabase start` (las locales, pero claves al fin).
+log/
+
+node_modules/
+web/dist/
+test-results/
+web/test-results/
+web/playwright-report/
+.DS_Store
